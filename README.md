@@ -6,7 +6,7 @@ This project use
   iOS12
 
 
-## ScreenSHots
+## ScreenShots
 
 <img src = "screenshots/iorder1.png" width="200"/>  <img src = "screenshots/iorder2.png" width="200"/> 
 <img src = "screenshots/iorder3.png" width="200"/> 
