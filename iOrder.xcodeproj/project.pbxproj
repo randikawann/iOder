@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD197F80233F202F007AC14B /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD197F7C233F202F007AC14B /* Order+CoreDataClass.swift */; };
+		CD197F81233F202F007AC14B /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD197F7D233F202F007AC14B /* Order+CoreDataProperties.swift */; };
+		CD197F83233F38EE007AC14B /* SelectOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD197F82233F38EE007AC14B /* SelectOrderTableViewCell.swift */; };
+		CD8D30FB233C55B1000689B2 /* MultiSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D30FA233C55B1000689B2 /* MultiSelectViewController.swift */; };
+		CD8D30FD233C6481000689B2 /* MultipleRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D30FC233C6481000689B2 /* MultipleRowTableViewCell.swift */; };
+		CD8D30FF233C80A3000689B2 /* FoodOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D30FE233C80A3000689B2 /* FoodOrderViewController.swift */; };
+		CD8D3101233DC281000689B2 /* AddOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D3100233DC281000689B2 /* AddOrderViewController.swift */; };
+		CD8D3103233DC653000689B2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D3102233DC653000689B2 /* Constant.swift */; };
+		CD8D3106233DCEF8000689B2 /* AdminPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8D3105233DCEF8000689B2 /* AdminPanelViewController.swift */; };
+		CD8FBFAD2342FD4200212637 /* AdminDishMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FBFAC2342FD4200212637 /* AdminDishMenuViewController.swift */; };
+		CD8FBFB0234310DC00212637 /* FoodItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FBFAE234310DC00212637 /* FoodItem+CoreDataClass.swift */; };
+		CD8FBFB1234310DC00212637 /* FoodItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FBFAF234310DC00212637 /* FoodItem+CoreDataProperties.swift */; };
+		CD8FBFB32343167000212637 /* AdminDishMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FBFB22343167000212637 /* AdminDishMenuTableViewCell.swift */; };
+		CD92C44A23425F6C0061D375 /* StarfOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD92C44923425F6C0061D375 /* StarfOrderTableViewCell.swift */; };
+		CD9317262344226A006D0E59 /* AddDishesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9317252344226A006D0E59 /* AddDishesViewController.swift */; };
+		CDEAD0112341A8A2008B2C07 /* AdminOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAD0102341A8A2008B2C07 /* AdminOrderViewController.swift */; };
 		CDF46BD62335B4C400F3828A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF46BD52335B4C400F3828A /* AppDelegate.swift */; };
 		CDF46BD82335B4C400F3828A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF46BD72335B4C400F3828A /* ViewController.swift */; };
 		CDF46BDB2335B4C400F3828A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF46BD92335B4C400F3828A /* Main.storyboard */; };
@@ -16,6 +32,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD197F7C233F202F007AC14B /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD197F7D233F202F007AC14B /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CD197F82233F38EE007AC14B /* SelectOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOrderTableViewCell.swift; sourceTree = "<group>"; };
+		CD8D30FA233C55B1000689B2 /* MultiSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectViewController.swift; sourceTree = "<group>"; };
+		CD8D30FC233C6481000689B2 /* MultipleRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleRowTableViewCell.swift; sourceTree = "<group>"; };
+		CD8D30FE233C80A3000689B2 /* FoodOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodOrderViewController.swift; sourceTree = "<group>"; };
+		CD8D3100233DC281000689B2 /* AddOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewController.swift; sourceTree = "<group>"; };
+		CD8D3102233DC653000689B2 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CD8D3105233DCEF8000689B2 /* AdminPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPanelViewController.swift; sourceTree = "<group>"; };
+		CD8FBFAC2342FD4200212637 /* AdminDishMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDishMenuViewController.swift; sourceTree = "<group>"; };
+		CD8FBFAE234310DC00212637 /* FoodItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD8FBFAF234310DC00212637 /* FoodItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FoodItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CD8FBFB22343167000212637 /* AdminDishMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDishMenuTableViewCell.swift; sourceTree = "<group>"; };
+		CD92C44923425F6C0061D375 /* StarfOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarfOrderTableViewCell.swift; sourceTree = "<group>"; };
+		CD9317252344226A006D0E59 /* AddDishesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDishesViewController.swift; sourceTree = "<group>"; };
+		CDEAD0102341A8A2008B2C07 /* AdminOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminOrderViewController.swift; sourceTree = "<group>"; };
 		CDF46BD22335B4C400F3828A /* iOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF46BD52335B4C400F3828A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDF46BD72335B4C400F3828A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +69,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD8D30F7233C5513000689B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD8D3104233DC7E0000689B2 /* Cell */,
+				CD8D3100233DC281000689B2 /* AddOrderViewController.swift */,
+				CD8D30FA233C55B1000689B2 /* MultiSelectViewController.swift */,
+				CD8D30FE233C80A3000689B2 /* FoodOrderViewController.swift */,
+				CD8D3105233DCEF8000689B2 /* AdminPanelViewController.swift */,
+				CDEAD0102341A8A2008B2C07 /* AdminOrderViewController.swift */,
+				CD8FBFAC2342FD4200212637 /* AdminDishMenuViewController.swift */,
+				CD9317252344226A006D0E59 /* AddDishesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD8D30F8233C551F000689B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDF46BD92335B4C400F3828A /* Main.storyboard */,
+				CDF46BE12335B4C600F3828A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD8D30F9233C5525000689B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD8D3102233DC653000689B2 /* Constant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD8D3104233DC7E0000689B2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CD8D30FC233C6481000689B2 /* MultipleRowTableViewCell.swift */,
+				CD197F82233F38EE007AC14B /* SelectOrderTableViewCell.swift */,
+				CD92C44923425F6C0061D375 /* StarfOrderTableViewCell.swift */,
+				CD8FBFB22343167000212637 /* AdminDishMenuTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		CDF46BC92335B4C400F3828A = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +131,16 @@
 		CDF46BD42335B4C400F3828A /* iOrder */ = {
 			isa = PBXGroup;
 			children = (
+				CD8FBFAE234310DC00212637 /* FoodItem+CoreDataClass.swift */,
+				CD8FBFAF234310DC00212637 /* FoodItem+CoreDataProperties.swift */,
+				CD197F7C233F202F007AC14B /* Order+CoreDataClass.swift */,
+				CD197F7D233F202F007AC14B /* Order+CoreDataProperties.swift */,
+				CD8D30F9233C5525000689B2 /* Model */,
+				CD8D30F8233C551F000689B2 /* View */,
+				CD8D30F7233C5513000689B2 /* Controller */,
 				CDF46BD52335B4C400F3828A /* AppDelegate.swift */,
 				CDF46BD72335B4C400F3828A /* ViewController.swift */,
-				CDF46BD92335B4C400F3828A /* Main.storyboard */,
 				CDF46BDF2335B4C600F3828A /* Assets.xcassets */,
-				CDF46BE12335B4C600F3828A /* LaunchScreen.storyboard */,
 				CDF46BE42335B4C600F3828A /* Info.plist */,
 				CDF46BDC2335B4C400F3828A /* iOrder.xcdatamodeld */,
 			);
@@ -138,9 +218,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8D30FB233C55B1000689B2 /* MultiSelectViewController.swift in Sources */,
 				CDF46BDE2335B4C400F3828A /* iOrder.xcdatamodeld in Sources */,
+				CD8FBFB0234310DC00212637 /* FoodItem+CoreDataClass.swift in Sources */,
+				CD8FBFB1234310DC00212637 /* FoodItem+CoreDataProperties.swift in Sources */,
+				CD9317262344226A006D0E59 /* AddDishesViewController.swift in Sources */,
+				CD8D3101233DC281000689B2 /* AddOrderViewController.swift in Sources */,
+				CD8D3103233DC653000689B2 /* Constant.swift in Sources */,
+				CD197F80233F202F007AC14B /* Order+CoreDataClass.swift in Sources */,
 				CDF46BD82335B4C400F3828A /* ViewController.swift in Sources */,
+				CD197F81233F202F007AC14B /* Order+CoreDataProperties.swift in Sources */,
+				CD92C44A23425F6C0061D375 /* StarfOrderTableViewCell.swift in Sources */,
+				CD8FBFB32343167000212637 /* AdminDishMenuTableViewCell.swift in Sources */,
+				CD8D30FD233C6481000689B2 /* MultipleRowTableViewCell.swift in Sources */,
+				CD8D3106233DCEF8000689B2 /* AdminPanelViewController.swift in Sources */,
+				CD197F83233F38EE007AC14B /* SelectOrderTableViewCell.swift in Sources */,
 				CDF46BD62335B4C400F3828A /* AppDelegate.swift in Sources */,
+				CD8FBFAD2342FD4200212637 /* AdminDishMenuViewController.swift in Sources */,
+				CDEAD0112341A8A2008B2C07 /* AdminOrderViewController.swift in Sources */,
+				CD8D30FF233C80A3000689B2 /* FoodOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.student.iOrder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.student.iOrder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

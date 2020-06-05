@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G87" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FoodItem" representedClassName="FoodItem" syncable="YES">
+        <attribute name="fCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="fName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fPrice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Order" representedClassName="Order" syncable="YES">
+        <attribute name="memberOfTable" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="orderItems" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="orderTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="starfId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalCost" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="FoodItem" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Order" positionX="-54" positionY="-9" width="128" height="120"/>
+    </elements>
 </model>
